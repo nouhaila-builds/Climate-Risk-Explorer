@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.mypy_cache/
+.ruff_cache/
+
+node_modules/
+frontend/dist/
+frontend/node_modules/
+
+.DS_Store
+*.log
+.cdsapirc
+
+# Unused Berkeley Earth snapshot. The app reads data/raw/owid/.
+data/raw/berkeley/
